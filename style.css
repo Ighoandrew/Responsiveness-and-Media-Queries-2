@@ -1,13 +1,71 @@
-.background{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
     background: url(./Images/bg-hero-desktop.svg);
+    background-color: rgb(229, 236, 238);
     display: flex;
-    /* flex-wrap: wrap; */
+    padding: 100px 200px;
 }
-.left{
+
+.left {
+    flex: 50%;
+    padding: 50px;
+}
+
+.right {
     flex: 50%;
     padding: 20px;
 }
-.right{
+
+.try {
+    padding: 10px 30px;
+    margin: 20px 50px;
+    background-color: white;
+    color: black;
+    float: right;
+    border-radius: 10px;
+}
+
+.submit {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid hsl(322, 100%, 66%);
+}
+
+.one {
+    display: flex;
+    padding: 100px 200px;
+}
+
+.one-left {
     flex: 50%;
-    padding: 20px;
+    padding: 200px;
+
+
+}
+
+.one-right {
+    flex: 50%;
+}
+.two {
+    display: flex;
+    padding: 200px 50px;
+}
+
+.two-left {
+    flex: 50%;
+    padding: 200px;
+
+
+}
+
+.two-right {
+    flex: 50%;
+    padding: 100px 200px;
 }
